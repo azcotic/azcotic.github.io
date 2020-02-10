@@ -54,11 +54,11 @@ function init() {
   // camera
   camera = new THREE.PerspectiveCamera(105, window.innerWidth / window.innerHeight, 0.1, 2000);
   
-  camera.position.set(1, 1, 10);
+  camera.position.set(1, 1, 4);
   
   camera.lookAt(0, 3, 0);
 
-  console.log("V7");
+  console.log("V8");
 
 
   // controls
@@ -195,7 +195,8 @@ function init() {
         if (o.isMesh) {
         	if (o.name==="Object_3001") {
         		console.log("No me toques la cabeza");
-        		o.material.color.setRGB(25, 0, 0); //Color Rojo
+        		o.material.color.setRGB(25, 0, 0);
+            alert("No me toques la cabeza"); //Color Rojo
         	}
         	if (o.name==="Object_3") {
         		console.log("Tengo cosquillas en todos lados");
