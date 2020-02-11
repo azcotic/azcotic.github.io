@@ -1,0 +1,605 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 522,
+      "max": [
+        -1.3853729963302612,
+        64.44769287109375,
+        11.029826164245605
+      ],
+      "min": [
+        -4.2097606658935547,
+        61.623115539550781,
+        7.9580883979797363
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 6264,
+      "componentType": 5126,
+      "count": 522,
+      "max": [
+        0.99993294477462769,
+        1,
+        0.99993300437927246
+      ],
+      "min": [
+        -0.99993288516998291,
+        -1,
+        -0.99993294477462769
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 522,
+      "max": [
+        0.9999883770942688,
+        0.44917860627174377,
+        0.99764120578765869,
+        1
+      ],
+      "min": [
+        -0.9999854564666748,
+        -0.39174151420593262,
+        -0.9976421594619751,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 522,
+      "max": [
+        0.61795812845230103,
+        0.76794004440307617
+      ],
+      "min": [
+        0.40574255585670471,
+        0.57304275035858154
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 3000,
+      "max": [
+        521
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 12528,
+      "componentType": 5126,
+      "count": 522,
+      "max": [
+        4.2093286514282227,
+        64.44769287109375,
+        11.029825210571289
+      ],
+      "min": [
+        1.3849409818649292,
+        61.623115539550781,
+        7.9580888748168945
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 18792,
+      "componentType": 5126,
+      "count": 522,
+      "max": [
+        0.99993282556533813,
+        1,
+        0.99993282556533813
+      ],
+      "min": [
+        -0.99993282556533813,
+        -1,
+        -0.99993276596069336
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 8352,
+      "componentType": 5126,
+      "count": 522,
+      "max": [
+        0.99998831748962402,
+        0.44917240738868713,
+        0.99764114618301392,
+        1
+      ],
+      "min": [
+        -0.99998515844345093,
+        -0.39174395799636841,
+        -0.99764198064804077,
+        1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4176,
+      "componentType": 5126,
+      "count": 522,
+      "max": [
+        0.64471340179443359,
+        0.76794004440307617
+      ],
+      "min": [
+        0.52874058485031128,
+        0.57304275035858154
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12000,
+      "componentType": 5125,
+      "count": 3000,
+      "max": [
+        521
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 25056,
+      "componentType": 5126,
+      "count": 30998,
+      "max": [
+        57.065948486328125,
+        73.193809509277344,
+        13.979170799255371
+      ],
+      "min": [
+        -57.065948486328125,
+        -73.193809509277344,
+        -13.979170799255371
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 397032,
+      "componentType": 5126,
+      "count": 30998,
+      "max": [
+        0.99986124038696289,
+        0.99987751245498657,
+        0.99996370077133179
+      ],
+      "min": [
+        -0.99986118078231812,
+        -0.99995827674865723,
+        -0.99997961521148682
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 16704,
+      "componentType": 5126,
+      "count": 30998,
+      "max": [
+        1,
+        0.99992740154266357,
+        0.99998933076858521,
+        1
+      ],
+      "min": [
+        -0.99998784065246582,
+        -0.99997735023498535,
+        -0.99998140335083008,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 8352,
+      "componentType": 5126,
+      "count": 30998,
+      "max": [
+        0.99778968095779419,
+        0.99817585945129395
+      ],
+      "min": [
+        0.011205106973648071,
+        0.00097119808197021484
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24000,
+      "componentType": 5125,
+      "count": 172788,
+      "max": [
+        30997
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "sapenton8821 (https://sketchfab.com/sapenton8821)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/models/3b20bd3e00e741fd8b5cc3a0b74bee74",
+      "title": "Character2 Textures Progress 2"
+    },
+    "generator": "Sketchfab-3.19.3",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 715152,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 256336,
+      "byteOffset": 715152,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 769008,
+      "byteOffset": 971488,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 512672,
+      "byteOffset": 1740496,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2253168,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Skin_MAT_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Skin_MAT_normal.png"
+    },
+    {
+      "uri": "textures/Skin_MAT_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Eye2_MAT_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Eye2_MAT_normal.png"
+    },
+    {
+      "uri": "textures/Eye2_MAT_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Eye_MAT_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/Eye_MAT_normal.png"
+    },
+    {
+      "uri": "textures/Eye_MAT_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Eye2_MAT",
+      "normalTexture": {
+        "index": 4,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 3,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 5,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "roughnessFactor": 0.1175685976
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Eye_MAT",
+      "normalTexture": {
+        "index": 7,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 6,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 8,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 6,
+          "texCoord": 0
+        },
+        "roughnessFactor": 0.16634908540000001
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Skin_MAT",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "occlusionTexture": {
+        "index": 2,
+        "strength": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "LoRes_Game_Mesh_Eye2_MAT_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "LoRes_Game_Mesh_Eye_MAT_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "LoRes_Game_Mesh_Skin_MAT_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 11,
+            "POSITION": 10,
+            "TANGENT": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "LoRes_Game_Mesh_Char.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5,
+        6,
+        7
+      ],
+      "name": "LoRes_Game_Mesh"
+    },
+    {
+      "mesh": 0,
+      "name": "LoRes_Game_Mesh_Eye2_MAT_0"
+    },
+    {
+      "mesh": 1,
+      "name": "LoRes_Game_Mesh_Eye_MAT_0"
+    },
+    {
+      "mesh": 2,
+      "name": "LoRes_Game_Mesh_Skin_MAT_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    },
+    {
+      "sampler": 0,
+      "source": 6
+    },
+    {
+      "sampler": 0,
+      "source": 7
+    },
+    {
+      "sampler": 0,
+      "source": 8
+    }
+  ]
+}
+

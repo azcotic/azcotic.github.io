@@ -36,6 +36,7 @@ var modelOut;
 //Declaraciones para Ray
 var raycaster = new THREE.Raycaster();
 var mouse = new THREE.Vector2();
+var resultado = "";
 
 init();
 animate();
@@ -109,13 +110,13 @@ function init() {
   var url3 = "https://azcotic.github.io/threefolder/Textures/man/scene3.gltf";
   var url4 = "https://azcotic.github.io/threefolder/Textures/woman/scene.gltf";
   var url = "https://azcotic.github.io/threefolder/Textures/scene.gltf";
-  var man = "https://azcotic.github.io/threefolder/Textures/man.gltf";
+  var man = "https://azcotic.github.io/threefolder/Textures/scene.gltf";
   var woman = "https://azcotic.github.io/threefolder/Textures/woman.gltf";
   var textureLoader = new THREE.TextureLoader();
   var texture = textureLoader.load('https://azcotic.github.io/threefolder/Textures/skin.jpg');
   texture.flipY = false;
   var oBody;
-  loader.load(url3, function(data) {
+  loader.load(man, function(data) {
     var gltf = data; //guarda la data en variable
     //crea variable objeto
 
@@ -194,21 +195,24 @@ function init() {
       intersects[0].object.traverse((o) => { 	
         if (o.isMesh) {
         	if (o.name==="Object_3001") {
-        		console.log("No me toques la cabeza");
-        		o.material.color.setRGB(25, 0, 0);
-            alert("No me toques la cabeza"); //Color Rojo
+        		alert("No me toques la cabeza");
+        		o.material.color.setRGB(25, 0, 0); //Color Rojo
+            window.AppInventor.setWebViewString("cabeza");
         	}
         	if (o.name==="Object_3") {
-        		console.log("Tengo cosquillas en todos lados");
+        		alert("Tengo cosquillas en todos lados");
         		o.material.color.setRGB(25, 0, 60); //Color Rojo
+            window.AppInventor.setWebViewString("todo");
         	}
         	if (o.name==="Object_3003") {
-        		console.log("Que tal mis pectorales?");
+        		alert("Que tal mis pectorales?");
         		o.material.color.setRGB(25, 45, 0); //Color Rojo
+            window.AppInventor.setWebViewString("pectorales");
         	}
         	if (o.name==="Object_3002") {
-        		console.log("Puedes sentir mis cuadritos?");
+        		alert("Puedes sentir mis cuadritos?");
         		o.material.color.setRGB(0, 0, 15); //Color Rojo
+            window.AppInventor.setWebViewString("abdomen");
         	}
         }
 
