@@ -49,7 +49,9 @@ function init() {
   document.body.appendChild(renderer.domElement);
 
   // scene
+
   scene = new THREE.Scene();
+  scene.background = new THREE.Color( 0x31adb3);
 
 
   // camera
@@ -59,7 +61,7 @@ function init() {
   
   camera.lookAt(0, 3, 0);
 
-  console.log("V12");
+  console.log("V13");
 
 
   // controls
