@@ -61,7 +61,7 @@ function init() {
   
   camera.lookAt(0, 3, 0);
 
-  console.log("V17");
+  console.log("V18");
 
 
   // controls
@@ -71,9 +71,14 @@ function init() {
   scene.add(new THREE.AmbientLight(0x888888));
 
   // light
-  var light = new THREE.DirectionalLight(0xffffff, 1);
-  light.position.set(20, 20, 0);
-  scene.add(light);
+  
+  var light2 = new THREE.DirectionalLight(0xffffff, 1);
+  light2.position.set(18, 10, 27);
+  var light3 = new THREE.DirectionalLight(0xffffff, 1);
+  light3.position.set(-20, 25, -27);
+  
+  scene.add(light2);
+  scene.add(light3);
   //projector 
   projector = new THREE.Projector();
 
@@ -133,7 +138,7 @@ function init() {
         // in which case you'd need to set `.map` on each value.
 
         //o.material.color.setRGB(25,0,0); //Color Rojo
-        //o.material.map = texture; //Textura de Piel
+        o.material.map = texture; //Textura de Piel
       }
     });
     oBody.scale.set(scale, scale, scale);
@@ -193,27 +198,27 @@ function init() {
     if (intersects.length > 0) {
       // There is intersection with the body
       //console.log(intersects[0].object.name);
-      intersects[0].object.material.color.setRGB(25, 0, 0);
+      //intersects[0].object.material.color.setRGB(25, 0, 0);
       intersects[0].object.traverse((o) => { 	
         if (o.isMesh) {
         	if (o.name==="Object_3001") {
         		alert("No me toques la cabeza");
-        		o.material.color.setRGB(25, 0, 0); //Color Rojo
+        		//o.material.color.setRGB(25, 0, 0); //Color Rojo
             window.AppInventor.setWebViewString("cabeza");
         	}
         	if (o.name==="Object_3") {
         		alert("Tengo cosquillas en todos lados");
-        		o.material.color.setRGB(25, 0, 60); //Color Rojo
+        		//o.material.color.setRGB(25, 0, 60); //Color Rojo
             window.AppInventor.setWebViewString("todo");
         	}
         	if (o.name==="Object_3003") {
         		alert("Que tal mis pectorales?");
-        		o.material.color.setRGB(25, 45, 0); //Color Rojo
+        		//o.material.color.setRGB(25, 45, 0); //Color Rojo
             window.AppInventor.setWebViewString("pectorales");
         	}
         	if (o.name==="Object_3002") {
         		alert("Puedes sentir mis cuadritos?");
-        		o.material.color.setRGB(0, 0, 15); //Color Rojo
+        		//o.material.color.setRGB(0, 0, 15); //Color Rojo
             window.AppInventor.setWebViewString("abdomen");
         	}
         }
