@@ -1,0 +1,3 @@
+[submodule "galocraft"]
+	path = galocraft
+	url = https://github.com/azcotic/galocraft.git
